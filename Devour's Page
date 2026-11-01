@@ -1,0 +1,319 @@
+<!--CSS GOES HERE, BETWEEN THE STYLE TAGS -->
+<style>
+
+/* CODE (C) HELIX @ SUBETA 2020 */
+/* DO NOT DISTRIBUTE, SELL, OR CLAIM THIS CODE AS YOUR OWN */
+
+
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
+#left {
+position:fixed;
+top:50px; left:303px;
+width:190px!important; height:665px!important;
+background-image:url(https://i.postimg.cc/wBJVMsK6/2.png);
+z-index:0}
+
+#right {
+position:fixed;
+top:10px; left:1085px;
+width:363px!important; height:665px!important;
+background-image:url(https://i.postimg.cc/ht0m5bqT/2.png);
+z-index:0}
+
+
+/* add/remove sections */
+/* #pet_minion, .pet_spotlight, #pet_friends, #pet_treasure, #pet_image, h2 {
+  display: none;
+} */
+#pet_friends {display: none;}
+
+
+
+/* change background image/color */
+body, html {
+  background-color: lightgray;
+  background-image: url("https://i.postimg.cc/brvVZNH5/2.png");
+  background-attachment: fixed;
+}
+
+
+
+
+/* change accent color */
+a, a:link, a:hover, a:active, a:visited, i, b, u {
+  color: ##CE4046;
+}
+
+
+
+
+/* ADVANCED */
+#header, #bookmarks, #postcards, #menu, #sidebar, #column_3, #column_1 h2, .pet_wco_info_date, .owner img {
+  display: none;
+}
+
+
+body {
+  font-size: 12px!important;
+  text-transform: lowercase;
+  color: #A9A9A9 !important;
+  font-family: 'Sen', sans-serif;
+}
+
+
+#page {
+  top: 0;
+  left: 0;
+  margin: 0 auto!important;
+  width: 600px;
+}
+
+
+#pet_image {
+  border-radius: 30px;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  margin-top: 30px!important;
+}
+
+
+#content {
+  /* change glass pane */
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 4px 8px 0 rgba(0, 0.5, 0.7, 0.2), 0 6px 20px 0 rgba(0, 0.5, 0.7, 0.19);
+  /* stop here */
+  height: auto!important;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+#pet_treasure, #pet_friends, #pet_desc {
+  padding: 20px;
+  margin: 20px auto !important;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0.5, 0.7, 0.2), 0 1px 2px 0 rgba(0, 0.5, 0.7, 0.19);
+}
+
+
+#pet_friends {
+  overflow: auto;
+}
+
+
+ #column_2 {
+    width: 97%!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    background-color: #fff;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0.5, 0.7, 0.2), 0 1px 2px 0 rgba(0, 0.5, 0.7, 0.19);
+}
+
+
+.pet_spotlight, #pet_minion {
+  background-color: #f1f1f1;
+  position: absolute!important;
+  border-radius: 10px;
+  left: 420px;
+  top: 120px;
+  height: 210px;
+  font-size: 10px!important;
+  text-transform: uppercase;
+  margin: 0!important;
+  padding-top: 25px!important;
+  margin-bottom: 35px!important;
+  width: 100px;
+}
+
+
+#pet_minion {
+  left: 50px!important;
+}
+
+
+.pet_spotlight img, #pet_minion img {
+  border: 10px solid #fff;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+
+
+#pet_desc {
+  text-align: justify;
+  text-transform: none !important;
+}
+
+
+.pet_name {
+  color: #808080 !important;
+  font-family: 'Sen', sans-serif;
+  letter-spacing: 3px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+
+h2 {
+  color: #808080 !important;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+
+
+
+#cred {
+  z-index: 99!important;
+  position: fixed!important;
+  bottom: 20px;
+  left: 20px;
+  font-size: 13px!important;
+  padding: 20px;
+  margin: 20px auto !important;
+  background-color: #f1f1f1;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0.5, 0.7, 0.2), 0 6px 20px 0 rgba(0, 0.5, 0.7, 0.19);
+}
+
+
+#pet_treasure {
+  padding-left: 23px!important;
+}
+
+
+.treasure_item {
+  z-index: 98!important;
+  margin: 3px 4px;
+  width: 64px;
+}
+
+
+.treasure_item img {
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+
+.friend_div {
+  margin: 8px 9px!important;
+}
+
+
+/* 03/19/2020 FIXES */
+.spoiler_click {
+  background-color: silver;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.spoiler_text {
+  border: none;
+}
+
+
+.new-news-announcement-banner {
+  display: none;
+}
+
+
+/* 03/21/2020 FIXES */
+.pet_spotlight, #pet_minion {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.pet_spotlight img, #pet_minion img {
+  width: 80px;
+}
+
+
+/* 03/26/20 FIXES */
+.pet_spotlight { left: 422px!important; }
+#pet_treasure { padding-left: 28px!important; }
+.pet_spotlight, #pet_minion { top: 125px!important; }
+
+
+</style><div id="left"></div><div id="right"></div>
+
+<!-- CREDITS GO HERE -->
+<div id="cred">
+<b>CREDITS</b><br/><br/>
+profile template (c) [user=helix] (<a href="https://subeta.net/forums.php/read/909303">get it</a>)<br/>
+writing and art by [user=angelica]<br/>
+background from Adobe Stock</div>
+
+<!-- PET STORY GOES HERE; YOU CAN CHANGE THE TITLE BY REPLACING "INFORMATION" -->
+
+The first astronomer to notice the object was Dr. Velis Aran, who initially mistook it for a calibration error.
+
+[br][br]It appeared on a Tuesday, buried among thousands of routine observations collected by the orbital telescopes of Subeta, a planet remarkably similar to Earth, with blue oceans, green continents, and a civilization that had spent centuries convincing itself that the universe was fundamentally understandable. 
+[br]The object was a point of light where no point of light belonged, shining with an intensity that overwhelmed the instruments attempting to measure it, and moving across the distant stars at a speed that should have made its existence impossible.
+
+[br][br]Velis submitted a report to the Astronomical Union and to SAI before going home, expecting it to be investigated by the following morning. Instead, the report was returned with a request to provide a more appropriate classification, since the category of unidentified celestial phenomena had recently been reorganized and was awaiting approval from the senior committee.
+
+[br][br]By the end of the week, three separate institutions had claimed responsibility for the discovery, two had disputed the accuracy of Velis's measurements, and a fourth had announced that the object should be named in honor of its own founder. The University of Northern Subeta argued that its observatory had technically recorded the light first, while the SAI Academy insisted that the discovery could not be considered official until a panel of qualified astronomers had verified it. A young astrophysicist named Eren attempted to publish a preliminary paper demonstrating that the object was approaching at nearly the speed of light, only to discover that his supervisor had withheld permission because the paper's title did not follow the institution's preferred naming conventions.
+
+[br][br]Meanwhile, the object grew brighter. Bigger. Nearer. 
+
+[br][br]It became impossible to ignore even during daylight, appearing as a pale, unwavering star beside Subeta's sun. Amateur astronomers photographed it from their gardens, children pointed at it from school playgrounds, and religious organizations began distributing pamphlets explaining what its arrival meant for the future of civilization. [br]Governmental figures demanded briefings, newspapers demanded exclusive interviews, and the Astronomical Union established a special committee to determine which government should be authorized to address the phenomenon on behalf of the planet.
+
+[br][br]The committee spent eleven days debating the matter.
+
+[br][br]When the first emergency conference finally took place, Velis stood before a room full of officials and explained that the object's trajectory violated several fundamental assumptions about celestial mechanics. It was moving too quickly for its apparent mass, radiating more energy than any known star of comparable size, and maintaining a course that suggested it was neither orbiting a larger body nor responding to any gravitational influence they could detect.
+
+[br][br]"It isn't behaving like an object," he told them. "It's behaving like something that has somewhere to go."
+
+[br][br]The conference chair thanked him for his contribution and asked whether he could provide a more reassuring interpretation before the next scheduled briefing.
+[br]Eren, who had been studying the incoming data without authorization, made the discovery that changed everything.
+
+[br][br]The object was not a star, a planet, or any kind of astronomical body known to Subeta's science. Its light fluctuated in irregular patterns, with brief intervals of darkness that could not be explained by rotation or eclipses. When Eren compared the observations across multiple wavelengths, he found that the fluctuations corresponded to movements in a structure surrounding the object, a structure that seemed to curl and uncurl as the celestial body crossed the void.
+
+[br][br]He requested access to the largest telescopes on the planet and was denied because the equipment had already been reserved for an official observation event celebrating the discovery's pending designation.
+
+[br][br]Desperate, he contacted Velis directly.
+
+[br][br]Together, they bypassed the official network and accessed an abandoned deep-space array whose instruments were still capable of resolving the object's surface. What appeared on their screens was so incomprehensible that neither spoke for several minutes.
+
+[br][br]The light surrounding the body was not a corona but an immense cavity filled with stars, and at its center floated a planet with oceans and continents that looked disturbingly familiar. Around this impossible world, red appendages coiled through the darkness like enormous living ropes, their surfaces covered in ridges and folds that moved with slow, deliberate contractions. Beneath the planet, a vast red face emerged from the surrounding mass, its jaws lined with crooked structures that looked like teeth, its continental eyes staring outward from either side of the star-filled cavity.
+
+[br][br]The thing had a head large enough to contain an entire world.
+[br]And the world inside it was dying.
+
+[br][br]Velis watched as one of the red appendages tightened around the planet. The oceans shifted beneath its grip, and a long, luminous crack appeared across the surface. Something that might once have been a continent broke away, dissolving into a stream of glittering particles that drifted toward the creature's mouth. The planet's atmosphere flared like a candle in a storm, and the creature's jaws opened slightly, revealing teeth large enough to swallow mountain ranges.
+
+[br][br]The astronomers understood then that the light they had been measuring was not emitted by a star. It came from the dying world trapped inside the creature's head, its radiation escaping through a vast opening into the universe. The object had not been approaching them in the conventional sense of a celestial body following a trajectory. It was moving with purpose, crossing the distance between stars as though the intervening space were merely an inconvenience.
+
+[br][br]They published their findings immediately, bypassing every committee and institutional authority that had delayed them.
+
+[br][br]For the first time in its history, the entire scientific community of Subeta agreed on something without argument. The creature was alive, impossibly ancient, and feeding on a planet that might once have supported a civilization much like their own. Its apparent speed was only one part of a greater mystery, because the creature had crossed distances that should have required millions of years in a fraction of the time, as though the laws governing the universe were suggestions it had long ago learned to disregard.
+
+[br][br]The emergency response began within hours. Military satellites were redirected, evacuation plans were announced, and the world's governments promised that every available resource would be devoted to the survival of their people. Scientists proposed gravitational weapons, antimatter detonations, attempts to communicate with the creature, and even the planet's goddess Shinwa was notified, but every calculation returned the same result. Nothing they possessed could meaningfully harm something of that magnitude, and nothing they understood could explain how it had found them.
+
+[br][br]The creature continued to approach.
+
+[br][br]As it grew larger in the sky, its shape became visible to the naked eye, a monstrous red silhouette wrapped around a dark window into another universe, with the blue planet inside its head shining like a trapped lantern. Its eyes turned slowly toward Subeta, and for one terrible moment, astronomers across the world believed they could see the reflection of their own planet in its enormous pupils.
+
+[br][br]Then the creature opened its mouth.
+
+[br][br]There was no roar, no announcement, and no change in the laws of physics that anyone could measure. The stars simply vanished behind its advancing body, and the sun became a small, insignificant light beside the vastness of its head. Subeta's oceans continued their tides, its forests continued to breathe, and its cities continued to burn with electricity, all beneath a sky that had become too crowded to contain anything resembling hope.
+
+[br][br]Velis remained at the observatory with Eren, watching the final images arrive from the outermost satellites. He thought of the committees, the arguments, the papers waiting for approval, and the years his colleagues had spent competing to attach their names to discoveries that would have meant nothing to a creature that had outlived worlds.
+
+[br][br]On the last functioning monitor, the planet inside the creature's head was almost entirely dark.
+[br]Eren asked whether they should name the creature before the communications network failed.
+
+[br][br]Velis watched its immense jaws begin to open around the distant horizon, and after a long silence, he shook his head.
+
+[br][br]For once, there was no need to claim the discovery, no committee to satisfy, and no institution left to remember who had been right. The creature had already found them, and Subeta, with all its oceans and cities and centuries of accumulated knowledge, was nothing more to it than another little world that happened to be in the way of its hunger.
